@@ -8,7 +8,7 @@ function example(): void {
   const constraint = engine.addConstraint(0, 10000);
   constraint.setCoefficient('x', 227);
   constraint.setCoefficient('y', 497);
-  constraint.setCoefficient('y', 723);
+  constraint.setCoefficient('z', 723);
 
   engine.setObjectiveCoefficient('x', 227);
   engine.setObjectiveCoefficient('y', 497);
