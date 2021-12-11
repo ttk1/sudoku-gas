@@ -1,0 +1,4 @@
+appsscript.json
+*.code-workspace
+node_modules/
+.clasp.json

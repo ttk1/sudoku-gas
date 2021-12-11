@@ -1,0 +1,24 @@
+{
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "env": {
+    "es6": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "@typescript-eslint/quotes": ["warn", "single"],
+    "@typescript-eslint/semi": "error",
+    "eol-last": "warn",
+    "@typescript-eslint/explicit-function-return-type": "warn",
+    "@typescript-eslint/no-var-requires": "off"
+  }
+}
