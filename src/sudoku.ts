@@ -13,7 +13,7 @@ function sudoku(): void {
     }
   }
 
-  // 各マスに必ず数字が割り当てられるための制約
+  // 各マスに 1~9 の数字がちょうど一つ割り当てられるための制約
   for (let i = 0; i < 9; i++) {
     for (let j = 0; j < 9; j++) {
       const constraint = engine.addConstraint(1, 1);
