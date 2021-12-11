@@ -5,7 +5,7 @@
 * Node.js
 * npm
 
-## set up clasp
+## setup clasp
 
 ```sh
 # install clasp
